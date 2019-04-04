@@ -2,82 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db0da433-d53b-4eac-81ab-9c042f60b105" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/css-tree/docs/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/Changelog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/dbcs-codec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/dbcs-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/internal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/sbcs-codec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/sbcs-data-generated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/sbcs-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/big5-added.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/cp936.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/cp949.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/cp950.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/eucjp.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/gbk-added.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/tables/shiftjis.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/utf16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/encodings/utf7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/lib/bom-handling.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/lib/extend-node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/lib/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/lib/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/iconv-lite/lib/streams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/locate-path/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/locate-path/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/locate-path/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/LICENSE-MIT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/data/fromInitial.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/data/toInitial.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/dist/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/docs/architecture.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/docs/guidelines/plugin.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/docs/guidelines/runner.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/docs/source-maps.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/docs/syntax.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/at-rule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/comment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/css-syntax-error.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/declaration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/lazy-result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/map-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/node.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/parse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/postcss.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/postcss.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/previous-map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/processor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/result.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/root.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/rule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/stringifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/stringify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/terminal-highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/tokenize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/vendor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/warn-once.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/postcss/lib/warning.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/supports-color/browser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/supports-color/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/supports-color/license" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/postcss-reduce-initial/node_modules/supports-color/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/unicode-property-aliases-ecmascript/LICENSE-MIT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/unicode-property-aliases-ecmascript/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/unicode-property-aliases-ecmascript/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/shared/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/about.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/blog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/cv.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/cv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/portfolio.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -89,12 +20,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="184">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/portfolio.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -102,17 +45,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/cv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/shared/Header.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/about.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -120,24 +75,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/blog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+            <state relative-caret-position="92">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -149,14 +93,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/pages/about.js" />
         <option value="$PROJECT_DIR$/pages/Portfolio.jsx" />
         <option value="$PROJECT_DIR$/pages/index.jsx" />
         <option value="$PROJECT_DIR$/pages/Blog.jsx" />
         <option value="$PROJECT_DIR$/pages/CV.jsx" />
         <option value="$PROJECT_DIR$/pages/Index.jsx" />
-        <option value="$PROJECT_DIR$/pages/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pages/blog.js" />
+        <option value="$PROJECT_DIR$/pages/index.js" />
+        <option value="$PROJECT_DIR$/pages/portfolio.js" />
+        <option value="$PROJECT_DIR$/pages/cv.js" />
+        <option value="$PROJECT_DIR$/pages/about.js" />
+        <option value="$PROJECT_DIR$/components/shared/Header.js" />
       </list>
     </option>
   </component>
@@ -172,6 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,16 +131,27 @@
             <path>
               <item name="dev_nick" type="b2602c69:ProjectViewProjectNode" />
               <item name="dev_nick" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev_nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev_nick" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev_nick" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev_nick" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -229,26 +189,22 @@
       <option name="presentableId" value="Default" />
       <updated>1554362258703</updated>
       <workItem from="1554362265628" duration="3556000" />
+      <workItem from="1554368197228" duration="1736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3556000" />
+    <option name="totallyTimeSpent" value="5292000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1206" y="23" width="714" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Storybook" side_tool="true" />
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25744048" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Quokka" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32982087" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="GitLabIntegration" />
+      <window_info id="Storybook" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32982087" />
@@ -256,66 +212,88 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="My Favorite Code" />
-      <window_info anchor="right" id="Json Parser" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32982087" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="GitLabIntegration" order="11" />
+      <window_info anchor="bottom" id="Quokka" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Json Parser" order="3" />
+      <window_info anchor="right" id="My Favorite Code" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4">
+        <state relative-caret-position="253">
           <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/portfolio.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="23">
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/blog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+        <state relative-caret-position="92">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/cv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/about.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="184">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/shared/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

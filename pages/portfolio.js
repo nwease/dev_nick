@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
+import Header from '../components/shared/Header';
 
 class Portfolio extends Component {
     render() {
         return (
-            <div>
-                PORTFOLIO
-            </div>
+           <div>
+               <h1>PORTFOLIO</h1>
+               <Header />
+           </div>
         );
     }
 }
