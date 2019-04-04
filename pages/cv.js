@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import Header from '../components/shared/Header';
+import Layout from '../components/layout/Layout';
 
 class Cv extends Component {
     render() {
         return (
-            <div>
+            <Layout>
                 <h1>CV</h1>
-                <Header />
-            </div>
+            </Layout>
         );
     }
 }

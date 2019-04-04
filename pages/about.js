@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
-import Header from '../components/shared/Header';
+import Layout from '../components/layout/Layout';
 
 class About extends Component {
     render() {
         return (
-            <div>
+            <Layout>
                 <h1>ABOUT</h1>
-                <Header />
-            </div>
+            </Layout>
         );
     }
 }

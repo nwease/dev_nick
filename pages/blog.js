@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import Link from 'next/link';
-import Header from '../components/shared/Header';
+import Layout from '../components/layout/Layout';
 
 class Blog extends Component {
     render() {
         return (
-            <div>
+            <Layout>
                 <h1>BLOG</h1>
-                <Header />
-            </div>
+            </Layout>
         );
     }
 }
