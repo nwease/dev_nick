@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import Layout from '../components/layout/Layout';
 import { withRouter } from 'next/router';
 const axios = require('axios');
-import Link from 'next/link';
 
 class Details extends Component {
 
