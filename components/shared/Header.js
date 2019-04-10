@@ -1,37 +1,5 @@
-// import React, {Component} from 'react';
-// import Link from 'next/link';
-//
-// class Header extends Component {
-//     render() {
-//         return (
-//             <React.Fragment>
-//                 <Link href='/'>
-//                     <a> Home </a>
-//                 </Link>
-//
-//                 <Link href='/about'>
-//                     <a> About </a>
-//                 </Link>
-//
-//                 <Link href='/blog'>
-//                     <a> Blog </a>
-//                 </Link>
-//
-//                 <Link href='/cv'>
-//                     <a> CV </a>
-//                 </Link>
-//
-//                 <Link href='/portfolio'>
-//                     <a>Portfolio</a>
-//                 </Link>
-//             </React.Fragment>
-//         );
-//     }
-// }
-//
-// export default Header;
-
 import React, { Component } from 'react';
+import Link from 'next/link';
 import {
     Collapse,
     Navbar,
@@ -39,11 +7,18 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem } from 'reactstrap';
+} from 'reactstrap';
+
+const BootNavLink = (props) => {
+
+    const { route, title } = props;
+
+    return (
+        <Link href={route}>
+            <a className='nav-link'> {title} </a>
+        </Link>
+    )
+};
 
 class Example extends Component {
     constructor(props) {
@@ -73,34 +48,24 @@ class Example extends Component {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className='ml-auto' navbar>
                             <NavItem>
-                                <NavLink href='/components/'>Components</NavLink>
+                                <BootNavLink route='/' title='Home' />
                             </NavItem>
 
                             <NavItem>
-                                <NavLink href='https://github.com/reactstrap/reactstrap'>GitHub</NavLink>
+                                <BootNavLink route='/about' title='About' />
                             </NavItem>
 
-                            <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
-                                    Options
-                                </DropdownToggle>
+                            <NavItem>
+                                <BootNavLink route='/blog' title='Blog' />
+                            </NavItem>
 
-                                <DropdownMenu right>
-                                    <DropdownItem>
-                                        Option 1
-                                    </DropdownItem>
+                            <NavItem>
+                                <BootNavLink route='/cv' title='CV' />
+                            </NavItem>
 
-                                    <DropdownItem>
-                                        Option 2
-                                    </DropdownItem>
-
-                                    <DropdownItem divider />
-
-                                    <DropdownItem>
-                                        Reset
-                                    </DropdownItem>
-                                </DropdownMenu>
-                            </UncontrolledDropdown>
+                            <NavItem>
+                                <BootNavLink route='/portfolio' title='Portfolio' />
+                            </NavItem>
                         </Nav>
                     </Collapse>
                 </Navbar>
