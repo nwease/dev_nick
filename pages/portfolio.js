@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import Layout from '../components/layout/Layout';
 import {Link} from '../routes';
+import BasePage from '../components/basePage';
 
 class Portfolio extends Component {
 

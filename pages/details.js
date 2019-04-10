@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Layout from '../components/layout/Layout';
 import { withRouter } from 'next/router';
 const axios = require('axios');
+import BasePage from '../components/basePage';
 
 class Details extends Component {
 
@@ -25,9 +26,11 @@ class Details extends Component {
 
         return (
             <Layout>
-                <h1>TITLE: {portfolio.title}</h1>
-                <p>BODY: {portfolio.body}</p>
-                <p>ID: {portfolio.id}</p>
+                <BasePage>
+                    <h1>TITLE: {portfolio.title}</h1>
+                    <p>BODY: {portfolio.body}</p>
+                    <p>ID: {portfolio.id}</p>
+                </BasePage>
             </Layout>
         );
     }

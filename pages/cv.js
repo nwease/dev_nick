@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import Layout from '../components/layout/Layout';
+import BasePage from '../components/basePage';
 
 class Cv extends Component {
     render() {
         return (
             <Layout>
-                <h1>CV</h1>
+                <BasePage>
+                    <h1>CV</h1>
+                </BasePage>
             </Layout>
         );
     }
