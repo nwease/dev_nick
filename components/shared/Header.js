@@ -9,14 +9,32 @@ import {
     NavItem,
 } from 'reactstrap';
 
+import auth0 from '../../services/auth0';
+
 const BootNavLink = (props) => {
 
     const { route, title } = props;
 
     return (
         <Link href={route}>
-            <a className='port-navbar-link'> {title} </a>
+            <a className='port-navbar-link port-navbar-link'> {title} </a>
         </Link>
+    )
+};
+
+const Login = () => {
+    return (
+        <span onClick={auth0.login} className='nav-link port-navbar-link click'>
+            Login
+        </span>
+    )
+};
+
+const Logout = () => {
+    return (
+        <span className='nav-link port-navbar-link click'>
+            Logout
+        </span>
     )
 };
 
@@ -65,6 +83,14 @@ class Example extends Component {
 
                             <NavItem className='port-navbar-item'>
                                 <BootNavLink route='/portfolio' title='Portfolio' />
+                            </NavItem>
+
+                            <NavItem className='port-navbar-item'>
+                                <Login/>
+                            </NavItem>
+
+                            <NavItem className='port-navbar-item'>
+                                <Logout/>
                             </NavItem>
                         </Nav>
                     </Collapse>
