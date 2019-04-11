@@ -6,7 +6,7 @@ class About extends Component {
     render() {
         return (
             <Layout>
-                <BasePage>
+                <BasePage className='about-page'>
                     <h1>ABOUT</h1>
                 </BasePage>
             </Layout>

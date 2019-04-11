@@ -2,15 +2,21 @@ import React from 'react';
 import { Container } from 'reactstrap';
 
 const BasePage = (props) => {
+
+    const { className } = props;
+    // const className = props.className || '';
+
     return (
-        <div className='base-page'>
+        <div className={`base-page ${className}`}>
             <Container>
-                <BasePage>
-                    {props.children}
-                </BasePage>
+                {props.children}
             </Container>
         </div>
     );
+};
+
+BasePage.defaultProps = {
+    className: ''
 };
 
 export default BasePage;

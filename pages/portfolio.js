@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import axios from 'axios';
 import Layout from '../components/layout/Layout';
 import {Link} from '../routes';
-import BasePage from '../components/basePage';
+import BasePage from "../components/basePage";
 
 class Portfolio extends Component {
 
@@ -37,13 +37,15 @@ class Portfolio extends Component {
 
         return (
            <Layout>
-               <h1>
-                   PORTFOLIO
-               </h1>
+               <BasePage>
+                   <h1>
+                       PORTFOLIO
+                   </h1>
 
-               <ul>
-                   {this.renderPosts(posts)}
-               </ul>
+                   <ul>
+                       {this.renderPosts(posts)}
+                   </ul>
+               </BasePage>
            </Layout>
         );
     }
