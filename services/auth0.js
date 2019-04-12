@@ -78,8 +78,8 @@ class Auth0 {
 
             // BUILD CERTIFICATE
             let cert = jwk.x5c[0];
-            cert = cert.match(/.{}.64/g).join('\n');
-            cert = `-----BEGIN CERTIFICATE-----\n${cert}-----END CERTIFICATE-----\n`;
+            cert = cert.match(/.{1,64}/g).join('\n');
+            cert = `-----BEGIN CERTIFICATE-----\n${cert}\n-----END CERTIFICATE-----\n`;
 
             if (jwk.kid === decodedToken.header.kid) {
                 try {
@@ -98,9 +98,9 @@ class Auth0 {
 
     async clientAuth() {
         const token = Cookies.getJSON('jwt');
-        const verifyToken = await this.verifyToken(token);
+        const verifiedToken = await this.verifyToken(token);
 
-        return verifyToken;
+        return verifiedToken;
     }
 
     async serverAuth(req) {
