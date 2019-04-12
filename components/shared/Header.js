@@ -57,7 +57,7 @@ class Example extends Component {
 
     render() {
 
-        const {isAuthenticated} = this.props;
+        const {isAuthenticated, user} = this.props;
 
         return (
             <div>

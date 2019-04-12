@@ -12,6 +12,9 @@ class Index extends Component {
     }
 
     render() {
+
+        const { isAuthenticated, user } = this.props;
+
         return (
             <Layout className='cover' {...this.props.auth}>
                 <div className='main-section'>
@@ -45,8 +48,8 @@ class Index extends Component {
                             <Col md='6' className='hero-welcome-wrapper'>
                                 <div className='hero-welcome-text'>
                                     <h1>
-                                        Welcome to the portfolio website of Nicholas Wease.
-                                        Get informed, collaborate and discover what I can do!
+                                        { isAuthenticated && <span><b> {user.name} </b></span> }
+                                        Hello. My name is <span style={{color:'#99f2c8'}}>Nicholas Wease</span>. Welcome to my portfolio website. You can learn more about me and discover what I can do for you!
                                     </h1>
                                 </div>
 
@@ -64,7 +67,7 @@ class Index extends Component {
 
                                 <div className='hero-welcome-bio'>
                                     <h1>
-                                        Let's take a look at my work.
+                                        Let's take a look at some of my work.
                                     </h1>
                                 </div>
                             </Col>
