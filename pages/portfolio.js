@@ -36,7 +36,7 @@ class Portfolio extends Component {
         const {posts} = this.props;
 
         return (
-           <Layout>
+           <Layout {...this.props.auth}>
                <BasePage>
                    <h1>
                        PORTFOLIO

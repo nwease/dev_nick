@@ -56,6 +56,9 @@ class Example extends Component {
     }
 
     render() {
+
+        const {isAuthenticated} = this.props;
+
         return (
             <div>
                 <Navbar className='port-navbar port-default absolute' color='transparent' light expand='md'>
@@ -85,13 +88,13 @@ class Example extends Component {
                                 <BootNavLink route='/portfolio' title='Portfolio' />
                             </NavItem>
 
-                            { !auth0.isAuthenticated() &&
+                            {!isAuthenticated &&
                                 <NavItem className='port-navbar-item'>
                                     <Login/>
                                 </NavItem>
                             }
 
-                            { auth0.isAuthenticated() &&
+                            {isAuthenticated &&
                                 <NavItem className='port-navbar-item'>
                                     <Logout/>
                                 </NavItem>

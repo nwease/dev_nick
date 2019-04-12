@@ -25,7 +25,7 @@ class Details extends Component {
         const {portfolio} = this.props;
 
         return (
-            <Layout>
+            <Layout {...this.props.auth}>
                 <BasePage>
                     <h1>TITLE: {portfolio.title}</h1>
                     <p>BODY: {portfolio.body}</p>
