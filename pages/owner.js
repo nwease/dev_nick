@@ -15,4 +15,4 @@ class Owner extends Component {
     }
 }
 
-export default withAuth (Owner, 'siteOwner');
+export default withAuth ('siteOwner') (Owner);
