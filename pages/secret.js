@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 import Layout from '../components/layout/Layout';
 import BasePage from '../components/basePage';
 import withAuth from '../components/hoc/withAuth';
-import { getSecretInfo } from '../actions';
+import { getSecretData, getSecretDataServer } from '../actions';
 
 class Secret extends Component {
 
-    static getInitialProps(){
-        const protectedSecret = 'Protected Secret';
+    static async getInitialProps({req}){
+        const moreSecretData = await getSecretData(req);
 
-        return {protectedSecret}
+        return { moreSecretData }
     }
 
     // constructor(props){
@@ -25,7 +25,7 @@ class Secret extends Component {
     };
 
     async componentDidMount() {
-        const secretData = await getSecretInfo();
+        const secretData = await getSecretData();
 
         this.setState({
             secretData
