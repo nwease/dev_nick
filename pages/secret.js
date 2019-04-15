@@ -35,7 +35,7 @@ class Secret extends Component {
     displaySecretData(){
         const {secretData} = this.state;
 
-        if (secretData && secretData.login > 0) {
+        if (secretData && secretData.length > 0) {
             return secretData.map((data, index) => {
                 return (
                     <div key={index}>
