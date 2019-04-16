@@ -26,7 +26,7 @@ class Details extends Component {
 
         return (
             <Layout {...this.props.auth}>
-                <BasePage>
+                <BasePage title='Details'>
                     <h1>TITLE: {portfolio.title}</h1>
                     <p>BODY: {portfolio.body}</p>
                     <p>ID: {portfolio.id}</p>

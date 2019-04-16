@@ -37,11 +37,7 @@ class Portfolio extends Component {
 
         return (
            <Layout {...this.props.auth}>
-               <BasePage>
-                   <h1>
-                       PORTFOLIO
-                   </h1>
-
+               <BasePage title='Portfolio'>
                    <ul>
                        {this.renderPosts(posts)}
                    </ul>
