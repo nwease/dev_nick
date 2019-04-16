@@ -1,4 +1,5 @@
-@import './shared/_fonts.scss';
+@import './shared/fonts.scss';
+@import './shared/colors';
 
 //INDEX PAGES
 @import './index';
@@ -30,7 +31,7 @@ html, body {
 .base-page {
   padding-top: 150px;
   color: white;
-  background: #ecedee;
+  background: #dbdbdb;
   min-height: 100vh;
 
   .page-header {

@@ -57,11 +57,11 @@ class Example extends Component {
 
     render() {
 
-        const {isAuthenticated, user} = this.props;
+        const { isAuthenticated, user, className } = this.props;
 
         return (
             <div>
-                <Navbar className='port-navbar port-default absolute' color='transparent' light expand='md'>
+                <Navbar className={`port-navbar port-nav-base absolute ${className}`} color='transparent' light expand='md'>
                     <NavbarBrand className='port-navbar-brand' href='/static/images/developernick.png'>Developer Nick</NavbarBrand>
 
                     <NavbarToggler onClick={this.toggle} />

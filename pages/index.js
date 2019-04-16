@@ -16,7 +16,7 @@ class Index extends Component {
         const { isAuthenticated, user } = this.props;
 
         return (
-            <Layout className='cover' {...this.props.auth}>
+            <Layout className='cover' {...this.props.auth} headerType='index'>
                 <div className='main-section'>
                     <div className='background-image'>
                         <img src='/static/images/background-index.jpg' alt='mountains' />
